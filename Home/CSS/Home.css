@@ -1,0 +1,29 @@
+body {
+    margin: 0%;
+}
+
+header {
+    padding: 0rem 0rem 0rem 1rem;
+    margin-top: 0%;
+    background-color: rgb(235, 235, 235);
+    border: .1rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > h1 {
+    display: flex;
+    wrap: nowrap;
+}
+
+.container-links > a {
+    text-decoration: none;
+    color: black;
+    padding: 0rem .8rem;
+}
+
+.container-links {
+    display: flex;
+    justify-content: space-between;
+}
