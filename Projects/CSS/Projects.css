@@ -1,6 +1,7 @@
 
 .button-display {
     display: block;
+    margin: 1em;
 }
 
 #btn1 {
@@ -12,3 +13,13 @@
     background-color: rgb(184, 151, 158);
 }
 
+@media (max-width: 662px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-display {
+        margin-top: 0em;
+    }
+}

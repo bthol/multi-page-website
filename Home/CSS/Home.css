@@ -1,0 +1,11 @@
+
+.contain-text h3, .contain-text p {
+    margin: 1em 1em;
+}
+
+@media (max-width: 662px) {
+    .contain-text h3 {
+        text-align: center;
+    }
+    
+}

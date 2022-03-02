@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    padding: 0rem 0rem 0rem 1rem;
+    padding: 0em 0em 0em 1em;
     margin-top: 0%;
     background-color: rgb(235, 235, 235);
     border: .1rem solid black;
@@ -20,10 +20,22 @@ a {
 }
 
 .container-links > a {
-    padding: 0rem .8rem;
+    margin: 0em .7em;
+    width: max-content;
 }
 
 .container-links {
+    width: max-content;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+@media (max-width: 662px) {
+    header {
+        flex-direction: column;
+        margin-block-end: 0em;
+    }
+    .container-links {
+        padding-left: 0em;
+    }
 }
