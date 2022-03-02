@@ -1,1 +1,14 @@
 
+.button-display {
+    display: block;
+}
+
+#btn1 {
+    border-radius: 5em;
+    background-color: rgb(194, 161, 168);
+    transition: 250ms ease-in-out;
+}
+#btn1:hover {
+    background-color: rgb(184, 151, 158);
+}
+
