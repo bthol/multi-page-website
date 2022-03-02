@@ -1,0 +1,29 @@
+body {
+    margin: 0%;
+    background-color: rgb(255, 252, 250);
+    font-family: Tahoma;
+}
+
+header {
+    padding: 0rem 0rem 0rem 1rem;
+    margin-top: 0%;
+    background-color: rgb(235, 235, 235);
+    border: .1rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-links > a {
+    padding: 0rem .8rem;
+}
+
+.container-links {
+    display: flex;
+    justify-content: space-between;
+}
