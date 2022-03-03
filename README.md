@@ -4,7 +4,7 @@ Description: This is my portfolio page.
 
 Technologies used: HTML5, CSS, JavaSCript, JQuery
 
-link to lives site: ________________________
+link to lives site: https://bthol.github.io/Portfolio/
 
 3 points of interaction:
 -button on projects page
