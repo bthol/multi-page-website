@@ -7,7 +7,7 @@ const linkEl5 = document.querySelector(`#link-links`);
 linkEl1.addEventListener('click', errorAlert)
 linkEl2.addEventListener('click', errorAlert)
 linkEl3.addEventListener('click', errorAlert)
-// linkEl4.addEventListener('click', errorAlert)
+linkEl4.addEventListener('click', errorAlert)
 linkEl5.addEventListener('click', errorAlert)
 
 function errorAlert() {
