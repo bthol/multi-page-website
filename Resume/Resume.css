@@ -1,6 +1,4 @@
 .contain-text p, .contain-text ul li {
-    margin-left: 1em;
     height: fit-content;
     list-style: none;
-    gap: 1em;
 }
