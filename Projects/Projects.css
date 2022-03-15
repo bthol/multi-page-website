@@ -4,13 +4,13 @@
     margin: 1em;
 }
 
-#btn1 {
+.btnStyle {
     border-radius: 5em;
     background-color: rgb(194, 161, 168);
-    transition: 250ms ease-in-out;
+    transition: 200ms ease-in-out;
 }
-#btn1:hover {
-    background-color: rgb(184, 151, 158);
+.btnStyle:hover {
+    background-color: rgb(214, 181, 188);
 }
 
 @media (max-width: 662px) {

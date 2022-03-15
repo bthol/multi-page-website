@@ -13,6 +13,7 @@
     <link rel="index" href="../Bio/Bio.html">
     <link rel="index" href="../Resume/Resume.html">
     <link rel="index" href="../Links/Links.html">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
     <header>
@@ -26,9 +27,17 @@
         </ul>
     </header>
     <main>
+        <div>
+            <p id="btnsclick">Buttons clicked: </p>
+        </div>
         <div class="button-display">
             <p>Countdown button</p>
-            <button id="btn1">Click me</button>
+            <button id="btn1" class="btnStyle">Click me</button>
+        </div>
+        <div class="button-display">
+            <button id="btnFunct" class="btnStyle">add random text</button>
+            <button id="btnFunctClear" class="btnStyle">clear</button>
+            <p id="textFunct">random text will be added here</p>
         </div>
     </main>
 </body>

@@ -12,15 +12,15 @@ main {
 header {
     padding: 0em 0em 0em 1em;
     margin-top: 0%;
-    background-color: rgb(235, 235, 235);
-    border-bottom: .1rem solid black;
+    background-color: rgb(215, 215, 231);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 #site-name {
-
     background-color: rgb(245, 242, 240);
 }
 
