@@ -1,11 +1,25 @@
 
-.contain-text h3, .contain-text p {
+/* .contain-text h3, .contain-text p {
     margin: 1em 1em;
+} */
+.add-flex-default {
+    display: flex;
+}
+
+.add-flex-default aside {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.sub-section {
+    gap: 10%;
 }
 
 @media (max-width: 662px) {
     .contain-text h3 {
         text-align: center;
     }
-    
+    .add-flex-default .sub-section {
+        display: block;
+    }
 }

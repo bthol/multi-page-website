@@ -1,17 +1,27 @@
 body {
-    margin: 0%;
-    background-color: rgb(255, 252, 250);
+    margin: 0 auto;
     font-family: Tahoma;
+    background-color: rgb(255, 252, 250);
+}
+
+main {
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
 header {
     padding: 0em 0em 0em 1em;
     margin-top: 0%;
     background-color: rgb(235, 235, 235);
-    border: .1rem solid black;
+    border-bottom: .1rem solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#site-name {
+
+    background-color: rgb(245, 242, 240);
 }
 
 a {
@@ -19,16 +29,18 @@ a {
     color: black;
 }
 
-.container-links > a {
-    margin: 0em .7em;
-    width: max-content;
+.container-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 
-.container-links {
+.container-links a {
+    background-color: rgb(245, 242, 240);
     width: max-content;
-    display: flex;
-    justify-content: space-around;
+    margin: 0rem .8rem;
 }
+
 
 @media (max-width: 662px) {
     header {
