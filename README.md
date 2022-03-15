@@ -4,7 +4,7 @@ Description: This is my portfolio page.
 
 Technologies used: HTML5, CSS, JavaSCript, JQuery
 
-link to live site: https://bthol.github.io/Portfolio/
+link to live site: https://infallible-saha-635db1.netlify.app/
 
 3 points of interaction:
 -button on projects page
