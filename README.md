@@ -1,6 +1,6 @@
 Developer: Blake Thollaug
 
-Description: This is my portfolio page.
+Description: This was practice for programming fundamentals, and will not continue to be developed.
 
 Technologies: HTML5, CSS, JavaSCript, JQuery
 
