@@ -1,6 +1,6 @@
 Developer: Blake Thollaug
 
-Description: This was practice for programming fundamentals, and will not continue to be developed.
+Description: This was practice for programming fundamentals, and development is discontinued.
 
 Technologies: HTML5, CSS, JavaSCript, JQuery
 
